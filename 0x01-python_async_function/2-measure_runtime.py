@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Concurrent function 
+Concurrent function
 """
 import asyncio
 import time
