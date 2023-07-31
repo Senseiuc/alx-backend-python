@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""A module for testing the utils module.
+"""
 from parameterized import parameterized
 from utils import access_nested_map
 from typing import Dict, Tuple, Union
@@ -5,6 +8,9 @@ import unittest
 
 
 class TestAccessNestedMap(unittest.TestCase):
+    """
+    Tests the access_nested_map function
+    """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2}),
