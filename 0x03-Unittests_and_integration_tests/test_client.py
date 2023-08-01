@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+"""
+A test for the client script
+"""
 import unittest
 from typing import Dict
 from unittest.mock import patch, MagicMock
